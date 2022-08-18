@@ -1,3 +1,23 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #131213;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #131213;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #131213;
+}
+
 .primary-pink-button-container {
   display: flex;
   position: relative;
@@ -136,17 +156,18 @@
   display: flex;
   align-items: center;
   flex-direction: row;
+  color: transparent;
   justify-content: space-between;
 }
 .header-container2 {
-  border: 0px dashed rgba(120, 120, 120, 0.4);
+  border: 0px dashed #131213;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
 .header-burger-menu {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
+  border: 2px dashed #131213;
   display: none;
   align-items: center;
   flex-direction: row;
@@ -291,6 +312,7 @@
   z-index: 1;
   max-width: 1320px;
   justify-content: space-between;
+  border-radius: 20px;
 }
 .footer-container1 {
   display: flex;
@@ -358,13 +380,13 @@
   display: flex;
   padding: var(--dl-space-space-tripleunit);
   z-index: 1;
-  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
+  box-shadow: 0 8px 26px -4px rgba(255, 255, 255, 0.15),0 8px 9px -5px rgba(255, 255, 255, 0.06)!important;
   margin-top: var(--dl-space-space-tripleunit);
   align-items: flex-start;
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
   backdrop-filter: saturate(200%) blur(30px);
-  background-color: hsla(0,0%,100%,.8);
+  background-color: #131213;
 }
 .home-text {
   text-align: center;
@@ -373,12 +395,12 @@
   -webkit-text-fill-color: transparent;
 }
 .home-text1 {
-  color: var(--dl-color-secondary-700);
+  color: #fff;
   text-align: center;
   margin-bottom: var(--dl-space-space-unitandahalfunit);
 }
 .home-text2 {
-  color: var(--dl-color-secondary-600);
+  color: #fff;
   margin-right: var(--dl-space-space-tripleunit);
   margin-bottom: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-tripleunit);
