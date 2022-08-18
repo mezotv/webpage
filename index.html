@@ -1,199 +1,138 @@
-<!DOCTYPE html>
-
-<html lang="en">
-  <head>
-    <title>niclaspy.xyz</title>
-
-
-    <meta property="og:title" content="Niclas.py" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Open Sans;
-        font-size: 1rem;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.625;
-        color: var(--dl-color-secondary-400);
-        background-color: var(--dl-color-gray-white);
-
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
-      data-tag="font"
-    />
-    <style>
-      html * {
-          -webkit-font-smoothing: antialiased;
-      }
-      input::placeholder, textarea::placeholder {
-         color: #d2d6da;
-      }
-    </style>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div>
-      <link href="./home.css" rel="stylesheet" />
-
-      <div class="home-container">
-        <div data-role="Header" class="header-header">
-          <nav class="header-nav">
-            <div class="header-container">
-              <a href="home.html" class="header-navlink large">Niclas.py</a>
-              <div class="header-menu">
-                <a href="home.html" class="header-navlink1">Home</a>
-                <a
-                  href="https://discord.com"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="header-link"
-                >
-                  Discord
-                </a>
-                <span class="header-text">
-                  <a
-                    href="https://github.com/niclaspy"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    class="header-link1 large"
-                  >
-                    GitHub
-                  </a>
-                  <br />
-                </span>
-              </div>
-              <div class="header-container1">
-                <div class="header-container2"></div>
-                <div data-type="BurgerMenu" class="header-burger-menu">
-                  <svg viewBox="0 0 1024 1024" class="header-icon">
-                    <path
-                      d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </nav>
-          <div data-type="MobileMenu" class="header-mobile-menu">
-            <div class="header-top">
-              <a href="home.html" class="header-navlink2 large">
-                Soft UI Design System
+<div>
+  <link href="./home.css" rel="stylesheet" />
+  <div class="home-container">
+    <div data-role="Header" class="header-header">
+      <nav class="header-nav">
+        <div class="header-container">
+          <a
+            href="https://niclaspy.xyz"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="header-link"
+          >
+            Niclas.py
+          </a>
+          <div class="header-menu">
+            <a href="home.html" class="header-navlink">Home</a>
+            <a
+              href="https://discord.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="header-link1"
+            >
+              Discord
+            </a>
+            <span class="header-text">
+              <a
+                href="https://github.com/niclaspy"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="header-link2 large"
+              >
+                GitHub
               </a>
-              <div data-type="CloseMobileMenu" class="header-close-menu">
-                <svg viewBox="0 0 1024 1024" class="header-icon2">
-                  <path
-                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                  ></path>
-                </svg>
-              </div>
-            </div>
-            <div class="header-mid">
-              <div class="header-menu1">
-                <a href="home.html" class="header-navlink3 large">Home</a>
-                <span class="header-text2 large">Profile</span>
-                <span class="header-text3 large">Coming Soon</span>
-              </div>
-            </div>
-            <div class="header-bot">
-              <div class="primary-pink-button-container">
-                <button class="primary-pink-button-button button buttonSmall">
-                  <span>buy now</span>
-                </button>
-              </div>
-            </div>
+              <br />
+            </span>
+          </div>
+          <div class="header-container1">
+            <div class="header-container2"></div>
+            <div data-type="BurgerMenu" class="header-burger-menu"></div>
           </div>
         </div>
-        <div class="home-hero">
-          <div class="home-container1">
-            <div class="home-card">
-              <h1 class="home-text headingOne">Niclas.py</h1>
-              <h1 class="home-text1 headingOne">
-                Discord Bot and App Developer
-              </h1>
-              <span class="home-text2">
-                <span class="home-text3">Hey! I&apos;m Niclas.</span>
-                <br />
-                <span>Skills: Python</span>
-                <br />
-                <span>Learning: HTML, CSS</span>
-                <br />
-              </span>
-              <div class="home-container2">
-                <div class="home-container3">
-                  <a
-                    href="https://discord.com"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    class="home-link"
-                  >
-                    <div class="primary-pink-button-container">
-                      <button
-                        class="primary-pink-button-button button buttonSmall"
-                      >
-                        <span>Discord</span>
-                      </button>
-                    </div>
-                  </a>
-                </div>
-                <a
-                  href="https://github.com/niclaspy"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="home-link1"
-                >
-                  <div class="outline-gray-button-container">
-                    <button
-                      class="outline-gray-button-button button buttonSmall"
-                    >
-                      <span>GitHub</span>
-                    </button>
-                  </div>
-                </a>
-              </div>
-            </div>
+      </nav>
+      <div data-type="MobileMenu" class="header-mobile-menu">
+        <div class="header-top">
+          <a href="home.html" class="header-navlink1 large">
+            Soft UI Design System
+          </a>
+          <div data-type="CloseMobileMenu" class="header-close-menu">
+            <svg viewBox="0 0 1024 1024" class="header-icon">
+              <path
+                d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+              ></path>
+            </svg>
           </div>
         </div>
-        <img
-          alt="image"
-          src="public/playground_assets/curved6-1500h.jpg"
-          class="home-image"
-        />
-        <footer class="footer-footer">
-          <div class="footer-container">
-            <div class="footer-container1">
-              <span class="footer-text">
-                <span>niclaspy.xyz</span>
-                <br />
-              </span>
-              <span>2022</span>
-            </div>
+        <div class="header-mid">
+          <div class="header-menu1">
+            <a href="home.html" class="header-navlink2 large">Home</a>
+            <span class="header-text2 large">Profile</span>
+            <span class="header-text3 large">Coming Soon</span>
           </div>
-          <img
-            alt="image"
-            src="public/playground_assets/waves-white.svg"
-            class="footer-image"
-          />
-        </footer>
+        </div>
+        <div class="header-bot">
+          <div class="primary-pink-button-container">
+            <button class="primary-pink-button-button button buttonSmall">
+              <span>buy now</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
-  </body>
-</html>
+    <div class="home-hero">
+      <div class="home-container1">
+        <div class="home-card">
+          <h1 class="home-text headingOne">Niclas.py</h1>
+          <h1 class="home-text1 headingOne">Discord Bot and App Developer</h1>
+          <span class="home-text2">
+            <span class="home-text3">Hey! I&apos;m Niclas.</span>
+            <br />
+            <span>Skills: Python</span>
+            <br />
+            <span>Learning: HTML, CSS</span>
+            <br />
+          </span>
+          <div class="home-container2">
+            <div class="home-container3">
+              <a
+                href="https://discord.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link"
+              >
+                <div class="primary-pink-button-container">
+                  <button class="primary-pink-button-button button buttonSmall">
+                    <span>Discord</span>
+                  </button>
+                </div>
+              </a>
+            </div>
+            <a
+              href="https://github.com/niclaspy"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="home-link1"
+            >
+              <div class="outline-gray-button-container">
+                <button class="outline-gray-button-button button buttonSmall">
+                  <span>GitHub</span>
+                </button>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      alt="image"
+      src="/playground_assets/curved6-1500h.jpg"
+      class="home-image"
+    />
+    <footer class="footer-footer">
+      <div class="footer-container">
+        <div class="footer-container1">
+          <span class="footer-text">
+            <span>niclaspy.xyz</span>
+            <br />
+          </span>
+          <span>2022</span>
+        </div>
+      </div>
+      <img
+        alt="image"
+        src="/playground_assets/waves-white.svg"
+        class="footer-image"
+      />
+    </footer>
+  </div>
+</div>
